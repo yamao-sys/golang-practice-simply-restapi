@@ -1,0 +1,12 @@
+output   = "app/models"
+wipe     = true
+no-tests = true
+add-enum-types = true
+
+[mysql]
+	dbname    = "go_database"
+	host      = "db"
+	port      = 3306
+	user      = "go_test"
+	pass      = "password"
+	sslmode   = "false"
